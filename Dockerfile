@@ -1,5 +1,4 @@
-# Use a slim Python 3.9 base image
-FROM python:3.9-slim
+
 
 # Install necessary dependencies and Chromium
 RUN apt-get update && apt-get install -y \
